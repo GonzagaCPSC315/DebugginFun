@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +29,9 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("button pressed")
+    }
 
 }
 
